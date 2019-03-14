@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0":
+"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.3.4":
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.3.4.tgz#921a5a13746c21e32445bf0798680e9d11a6530b"
   integrity sha512-jRsuseXBo9pN197KnDwhhaaBzyZr2oIcLHHTt2oDdQrej5Qp57dCCJafWx5ivU8/alEYDpssYqv1MUqcxwQlrA==
@@ -571,6 +571,13 @@
     mkdirp "^0.5.1"
     pirates "^4.0.0"
     source-map-support "^0.5.9"
+
+"@babel/runtime@^7.3.4":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
+  integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
+  dependencies:
+    regenerator-runtime "^0.12.0"
 
 "@babel/template@^7.0.0", "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
@@ -1136,6 +1143,11 @@ babel-core@^6.26.0, babel-core@^6.7.2:
     private "^0.1.8"
     slash "^1.0.0"
     source-map "^0.5.7"
+
+babel-core@^7.0.0-bridge.0:
+  version "7.0.0-bridge.0"
+  resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-7.0.0-bridge.0.tgz#95a492ddd90f9b4e9a4a1da14eb335b87b634ece"
+  integrity sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
 
 babel-generator@^6.26.0:
   version "6.26.1"
@@ -5181,6 +5193,11 @@ react-native-firebase@^5.2.3:
     opencollective-postinstall "^2.0.0"
     prop-types "^15.6.2"
 
+react-native-google-signin@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-google-signin/-/react-native-google-signin-1.2.1.tgz#c4d442c24039ba3ef6983aab18cf13991a29a71f"
+  integrity sha512-i19hQF/HYXdDjwFMM4tx3b7IbztHpKqrpDbjyH7jm+d26F2ow/51iUVRFekTIFRkdSHaKjqprtw9HKCntxXetA==
+
 react-native@0.57.0:
   version "0.57.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.0.tgz#b0d098bbd5393fc3c079f8d7c2a8bf9a10b86b9e"
@@ -5349,6 +5366,11 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+  integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
